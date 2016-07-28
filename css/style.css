@@ -235,3 +235,22 @@ img{max-width: 100%;}
     margin-top: 3%;
     color: rgba(255,255,255,.7);
 }
+
+/* MEDIA TYPES*/
+
+@media print{
+    .title h2{
+        font-size: 2.5em;
+        font-weight: 700;
+        color: red;
+    }
+
+    .title h3{
+        font-size: 1.5em;
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 320px){
+
+}
