@@ -273,6 +273,7 @@ img{max-width: 100%;}
         float: left;
         margin-right: 2%;
     }
+
     .servico:nth-child(2){
         margin-right: 0;
     }
@@ -298,10 +299,7 @@ img{max-width: 100%;}
         float: right;
         margin-top: 0;
     }
-}
-
-/*MEDIUM DEVICES - TABLETS & DESCKTOPS*/
-@media screen and (min-width: 960px){
+    
     .title{
         width: 70%;
         float: left;
@@ -321,10 +319,14 @@ img{max-width: 100%;}
         float: right;
         margin-top: 0;
     }
-    
+}
+
+/*MEDIUM DEVICES - TABLETS & DESCKTOPS*/
+@media screen and (min-width: 960px){
     .servico{
         width: 32%;
     }
+    
     .servico:nth-child(2){
         margin-right: 2%;
     }
@@ -339,13 +341,41 @@ img{max-width: 100%;}
         width: 20%;
         float: none;
     }
-}
 
-@media screen and (min-width: 1280){
     .btn-menu{
         display: none;
     }
+
     .btn-close{
         display: none;
     }
+
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #e0e0e0;
+        position: static;
+        display: block !important;
+    }
+
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+
+    .menu li a{
+        color: #130400;
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover{
+        border: none;
+        color: #da6769;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    
 }
